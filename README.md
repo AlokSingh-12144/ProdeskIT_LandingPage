@@ -5,10 +5,10 @@ A professional landing page module for digital marketing wing of ProdeskIT
 [View Live Site](https://prodesk-it-landing-page-nine.vercel.app/#contact)
 
 ## Screenshot
-![screenshot](assets/screenshot(79).png)
-![screenshot](assets/screenshot(80).png)
-![screenshot](assets/screenshot(81).png)
-![screenshot](assets/screenshot(82).png)
+![screenshot](./assets/screenshot(79).png)
+![screenshot](./assets/screenshot(80).png)
+![screenshot](./assets/screenshot(81).png)
+![screenshot](./assets/screenshot(82).png)
 
 ## Tech Stack
 HTML5, CSS3 (Flexbox + Grid), Vanilla JavaScript
