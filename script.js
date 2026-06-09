@@ -8,5 +8,6 @@ themeToggle.addEventListener('click', () => {
 });
 
 hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+ const isExpanded = navLinks.classList.toggle('active');
+ hamburger.setAttribute('aria-expanded', isExpanded); 
 });
