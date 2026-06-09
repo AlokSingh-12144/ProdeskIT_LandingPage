@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Prodesk IT</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
 </head>
 <body>
   <header>
@@ -18,8 +19,8 @@
     <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="nav-controls">
-    <button id="themeToggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
-    <div class="hamburger" id="hamburger">
+    <button id="themeToggle" name="theme" aria-label="Toggle theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    <div class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
       <i class="fas fa-bars"></i>
     </div>
   </div>
@@ -33,7 +34,7 @@
     <button class="cta-btn">Get Started  <i class="fa-solid fa-arrow-right"></i></button>
   </div>
   <div class="hero-img">
-    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Hero">
+    <img src="assets/heroSectionImage.avif" alt="A laptop on a desk with code on the screen, representing web development.">
   </div>
 </section>
 
@@ -58,12 +59,12 @@
 <footer id="contact">
   <p>&copy; 2026 Prodesk IT. All rights reserved.</p>
   <div class="socials">
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
